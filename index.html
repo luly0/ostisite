@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSTI - Restaurante de Alta Gastronomia em Campinas</title>
+  <!-- Google Fonts: Serif for headlines, Sans-serif for body -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Osti: Ostras frescas, frutos do mar, alta gastronomia e ambiente elegante em Campinas. Reserve sua mesa!">
+  <meta name="keywords" content="restaurante, Campinas, frutos do mar, ostras, alta gastronomia, luxo, Osti, contemporâneo, vinhos, coquetéis">
+  <meta name="author" content="OSTI Restaurante">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="OSTI - Alta Gastronomia em Campinas">
+  <meta property="og:description" content="Ostras frescas, frutos do mar e alta gastronomia em ambiente luxuoso.">
+  <meta property="og:image" content="images/og-cover.jpg">
+  <meta property="og:url" content="https://osti.com.br">
+  <meta property="og:type" content="restaurant.business">
+  <meta property="og:locale" content="pt_BR">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Floating WhatsApp button -->
+  <a href="https://wa.me/5519991555598" class="whatsapp-float" target="_blank" aria-label="Fale conosco via WhatsApp">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"><circle cx="17" cy="17" r="17" fill="#25D366"/><path d="M24 20.2c-.3-.1-1.7-.9-1.9-1s-.5-.1-.6.1c-.2.2-.6.7-.7.9-.1.2-.3.2-.5.1-1-.4-2-1.2-2.8-2.3-.2-.3.2-.4.4-.9v-.1c0-.1 0-.2-.1-.3-.1-.1-.6-1.5-.8-2.1-.2-.4-.4-.4-.5-.4l-.4 0c-.1 0-.3 0-.5.2-.2.2-.7.7-.7 1.7s.7 2 1.6 2.8c1.1 1.1 2.6 1.5 3.3 1.2.3-.1.6-.3.8-.6.1-.2.2-.7.1-.7z" fill="#fff"/></svg>
+  </a>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <nav class="container nav-flex" role="navigation" aria-label="Menu principal">
+      <a href="#" class="logo" aria-label="Osti - Página Inicial">OSTI</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#signature">Pratos</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#reviews">Avaliações</a></li>
+        <li><a href="#location">Localização</a></li>
+        <li><a href="#reserve">Reservas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" style="background-image: url('images/hero-oysters.jpg');" aria-label="Imagem de fundo de ostras frescas">
+      <div class="overlay"></div>
+      <div class="container hero-content" data-sr-fade="up">
+        <span class="logo hero-logo">OSTI</span>
+        <h1 class="hero-headline">Experiência gastronômica refinada em Campinas</h1>
+        <p class="hero-subheadline">Ostras frescas, frutos do mar e alta gastronomia.</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-gold">Ver Cardápio</a>
+          <a href="#reserve" class="btn btn-outline">Reservar Mesa</a>
+          <a href="https://wa.me/5519991555598" class="btn btn-outline mobile" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container about-flex" data-sr-fade="left">
+        <div class="about-photo lazy" data-bg="images/about.jpg" aria-label="Ambiente sofisticado do Osti"></div>
+        <div class="about-content">
+          <h2 class="section-title">Sobre o Osti</h2>
+          <p>O <strong>Osti</strong> nasceu da paixão por frutos do mar frescos, alta gastronomia e hospitalidade refinada. Com uma curadoria minuciosa de ingredientes sazonais, oferecemos pratos que honram os sabores do oceano, acompanhados por vinhos e coquetéis exclusivos. O ambiente elegante foi projetado para proporcionar momentos memoráveis — perfeito para celebrações ou noites especiais. Viva uma experiência sensorial inigualável em Campinas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURE DISHES -->
+    <section class="signature-dishes" id="signature">
+      <div class="container">
+        <h2 class="section-title" data-sr-fade="up">Pratos em Destaque</h2>
+        <div class="dishes-grid">
+          <article class="dish-card" tabindex="0" data-sr-fade="up" style="--delay:0s">
+            <div class="dish-img lazy" data-bg="images/ostras.jpg" aria-label="Ostras Frescas"></div>
+            <h3>Ostras Frescas</h3>
+            <p>Ostras selecionadas diárias, servidas geladas ao natural com molhos exclusivos.</p>
+          </article>
+          <article class="dish-card" tabindex="0" data-sr-fade="up" style="--delay:.1s">
+            <div class="dish-img lazy" data-bg="images/polvo.jpg" aria-label="Polvo na Brasa"></div>
+            <h3>Polvo na Brasa</h3>
+            <p>Polvo grelhado ao carvão, acompanhado de batatas rústicas e aioli defumado.</p>
+          </article>
+          <article class="dish-card" tabindex="0" data-sr-fade="up" style="--delay:.2s">
+            <div class="dish-img lazy" data-bg="images/carre.jpg" aria-label="Carré de Cordeiro"></div>
+            <h3>Carré de Cordeiro</h3>
+            <p>Corte premium, preparado ao ponto perfeito, servido com cuscuz marroquino.</p>
+          </article>
+          <article class="dish-card" tabindex="0" data-sr-fade="up" style="--delay:.3s">
+            <div class="dish-img lazy" data-bg="images/lagosta.jpg" aria-label="Lagosta com Risoto"></div>
+            <h3>Lagosta com Risoto de Queijo Coalho</h3>
+            <p>Lagosta grelhada e risoto cremoso de queijo coalho suave.</p>
+          </article>
+          <article class="dish-card" tabindex="0" data-sr-fade="up" style="--delay:.4s">
+            <div class="dish-img lazy" data-bg="images/caldeirada.jpg" aria-label="Caldeirada de Frutos do Mar"></div>
+            <h3>Caldeirada de Frutos do Mar</h3>
+            <p>Mix especial do mar, cozido lentamente com ervas, tomates e açafrão.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="menu-preview" id="menu">
+      <div class="container menu-flex">
+        <div class="menu-info" data-sr-fade="right">
+          <h2 class="section-title">Menu Osti</h2>
+          <ul class="menu-list">
+            <li>
+              <span class="menu-cat">Entradas</span>
+              <span class="menu-items">Ostras, Vieira Gratinada, Salada de Lagosta</span>
+            </li>
+            <li>
+              <span class="menu-cat">Pratos Principais</span>
+              <span class="menu-items">Polvo na Brasa, Bacalhau do Chef, Carré de Cordeiro</span>
+            </li>
+            <li>
+              <span class="menu-cat">Frutos do Mar</span>
+              <span class="menu-items">Moqueca, Caldeirada de Frutos do Mar, Lagosta</span>
+            </li>
+            <li>
+              <span class="menu-cat">Sobremesas</span>
+              <span class="menu-items">Tarte de Limão Siciliano, Mousse de Chocolate Belga</span>
+            </li>
+            <li>
+              <span class="menu-cat">Coquetéis</span>
+              <span class="menu-items">Gin Osti, Spritz Mediterrâneo, Vinho Seleção</span>
+            </li>
+          </ul>
+          <a href="menu.pdf" class="btn btn-gold" target="_blank" rel="noopener">Ver Cardápio Completo</a>
+        </div>
+        <div class="menu-photo lazy" data-bg="images/menu.jpg" aria-label="Prato elegante do cardápio"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <h2 class="section-title" data-sr-fade="up">Galeria</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item lazy" data-bg="images/gallery-1.jpg" aria-label="Detalhe de prato sofisticado" tabindex="0"></figure>
+          <figure class="gallery-item lazy" data-bg="images/gallery-2.jpg" aria-label="Ambiente do salão principal" tabindex="0"></figure>
+          <figure class="gallery-item lazy" data-bg="images/gallery-3.jpg" aria-label="Detalhe de coquetel autoral" tabindex="0"></figure>
+          <figure class="gallery-item lazy" data-bg="images/gallery-4.jpg" aria-label="Team de garçons" tabindex="0"></figure>
+          <figure class="gallery-item lazy" data-bg="images/gallery-5.jpg" aria-label="Mesa para celebração" tabindex="0"></figure>
+          <figure class="gallery-item lazy" data-bg="images/gallery-6.jpg" aria-label="Sobremesa apresentada" tabindex="0"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <h2 class="section-title" data-sr-fade="up">Avaliações dos Clientes</h2>
+        <div class="reviews-grid">
+          <blockquote class="review-card" data-sr-fade="up">
+            <div class="stars" aria-label="Avaliação 5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>“O melhor restaurante de frutos do mar de Campinas. Atendimento impecável e carta de vinhos surpreendente.”</p>
+            <cite>- Paula S.</cite>
+          </blockquote>
+          <blockquote class="review-card" data-sr-fade="up" style="--delay:.1s">
+            <div class="stars" aria-label="Avaliação 4.5 estrelas">&#9733;&#9733;&#9733;&#9733;&#189;</div>
+            <p>“Ambiente sofisticado e pratos maravilhosos. As ostras são absolutamente frescas!”</p>
+            <cite>- Marcelo R.</cite>
+          </blockquote>
+          <blockquote class="review-card" data-sr-fade="up" style="--delay:.2s">
+            <div class="stars" aria-label="Avaliação 5 estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>“Experiência gastronômica inesquecível. Voltarei mais vezes!”</p>
+            <cite>- Beatriz L.</cite>
+          </blockquote>
+        </div>
+        <p class="google-reviews">Avaliação geral:&nbsp;<span class="stars main">&#9733;&#9733;&#9733;&#9733;&#189;</span> 4.7 (447+ avaliações)</p>
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section class="location-section" id="location">
+      <div class="container location-flex">
+        <div class="location-map" data-sr-fade="left" aria-label="Google Maps - Localização do Osti">
+          <!-- Accessible map iframe -->
+          <iframe 
+            src="https://www.google.com/maps?q=R.+Heitor+Leme+de+Paula,+111+-+Cambu%C3%AD,+Campinas+-+SP,+13025-180,+Brazil&output=embed"
+            width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa - Osti Restaurante"
+            aria-label="Localização no Google Maps">
+          </iframe>
+        </div>
+        <div class="location-info" data-sr-fade="right">
+          <h2 class="section-title">Onde Estamos</h2>
+          <address>
+            <strong>Osti Restaurante</strong><br>
+            R. Heitor Leme de Paula, 111 - Cambuí,<br>
+            Campinas - SP, Brasil<br>
+            <abbr title="Telefone">Tel:</abbr> <a href="tel:+5519991555598">(19) 99155-5598</a><br>
+            <span>WhatsApp: <a href="https://wa.me/5519991555598" target="_blank">(19) 99155-5598</a></span><br>
+            <span class="hours"><strong>Horários:</strong><br>
+            Ter a Dom: 12h - 23h</span>
+          </address>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVATION / CONTACT SECTION -->
+    <section class="reservation-section" id="reserve">
+      <div class="container reservation-flex">
+        <div class="reservation-info" data-sr-fade="left">
+          <h2 class="section-title">Reservas & Contato</h2>
+          <p>Garanta sua mesa para uma noite inesquecível.</p>
+          <div class="reservation-contacts">
+            <a href="https://wa.me/5519991555598" class="btn btn-gold" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="tel:+5519991555598" class="btn btn-outline">Ligar</a>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Formulário de contato" data-sr-fade="right" autocomplete="off">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required autocomplete="name"/>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required autocomplete="email"/>
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="3" required></textarea>
+          <button type="submit" class="btn btn-gold">Enviar</button>
+          <span class="form-msg" aria-live="polite"></span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div class="footer-logo">
+        <span aria-label="Logo Osti">OSTI</span>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#reserve">Reservas</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <address>
+          R. Heitor Leme de Paula, 111 - Cambuí, Campinas - SP<br>
+          <a href="tel:+5519991555598">(19) 99155-5598</a>
+        </address>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram Osti">
+            <svg width="20" viewBox="0 0 448 512" fill="#d4af37"><path d="M224,202.66A53.34,53.34,0,1,0,277.34,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.22-30.22C302.7,117.2,287.15,112,224,112s-78.69,5.19-94.49,19.49a54,54,0,0,0-30.22,30.22C117.2,145.31,112,160.85,112,224s5.18,78.69,19.49,94.48a54,54,0,0,0,30.22,30.22C145.29,374.8,160.85,380,224,380s78.69-5.19,94.5-19.5A54,54,0,0,0,348.72,333.5C362.81,318.7,368,303.15,368,224S362.82,129.31,348.71,161.68ZM224,338a114,114,0,1,1,114-114A114,114,0,0,1,224,338Zm146.4-212.34A48.5,48.5,0,0,0,393,75.6,48.62,48.62,0,0,0,362.38,61.6C348.5,55.21,303,56,224,56s-124.5-.79-138.39,5.62A48.68,48.68,0,0,0,55.58,75.6,48.5,48.5,0,0,0,61.6,109.62C67.79,123.5,68.59,169,68.59,248s-.8,124.5-5.61,138.39A48.53,48.53,0,0,0,75.57,393a48.55,48.55,0,0,0,34,13.62c13.89,6.41,59.45,5.62,138.43,5.62s124.53.79,138.43-5.62a48.48,48.48,0,0,0,13.61-34C392.2,378.49,393,333,393,253S392.21,123.5,386.42,109.62ZM224,338a82,82,0,1,1,82-82A82,82,0,0,1,224,338Zm85.55-139a19.76,19.76,0,1,1,19.76-19.76A19.76,19.76,0,0,1,309.53,199Z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook Osti">
+            <svg width="20" viewBox="0 0 448 512" fill="#d4af37"><path d="M448 56.7v398.5c0 31.3-25.4 56.8-56.7 56.8H56.7C25.4 512 0 486.5 0 455.2V56.7C0 25.4 25.4 0 56.7 0h334.5C422.6 0 448 25.4 448 56.7zM224.1 368V256.4h-36V216.9h36v-29.8c0-35.8 22-55.4 54-55.4 15.3 0 28.5 1.1 32.4 1.6v37.5h-22.3c-17.5 0-20.9 8.3-20.9 20.5v26.9h41.9l-5.5 39.5h-36.4V368h-43.8z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Osti Restaurante. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
